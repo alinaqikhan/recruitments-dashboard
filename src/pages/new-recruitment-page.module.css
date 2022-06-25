@@ -1,0 +1,134 @@
+.container {
+    padding: 1rem;
+    height: 57.9rem;
+}
+
+.container form {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.input {
+    margin: 1rem;
+    width: 90%;
+    height: 4rem;
+    font-size: 1.7rem;
+    padding: 1rem;
+    outline: none;
+    background: #f1f3f4;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+}
+
+.input:hover,
+.textarea:hover,
+.input:active,
+.input:focus,
+.textarea:active,
+.textarea:focus,
+.selects select:hover,
+.selects select:active {
+
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid transparent;
+    -moz-box-shadow: 0 1px 1px 0 rgba(65, 69, 73, 0.3), 0 1px 3px 1px rgba(65, 69, 73, 0.15);
+    box-shadow: 0 1px 1px 0 rgba(65, 69, 73, 0.3), 0 1px 3px 1px rgba(65, 69, 73, 0.15);
+}
+
+.selects {
+    margin: 1rem auto;
+    width: 90%;
+    text-align: left;
+}
+
+.selects select {
+   margin-right: 1rem;
+    width: 40%;
+    font-size: 1.7rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    padding: 1rem;
+    outline: none;
+    background: #f1f3f4;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+}
+
+.textarea {
+    margin: 1rem;
+    width: 90%;
+    font-size: 1.7rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    padding: 1rem;
+    outline: none;
+    background: #f1f3f4;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    width: 94%;
+    padding: 1rem;
+}
+
+.cancel {
+    margin: 1rem;
+    background-color: #FFFFFF;
+    border: 1px solid #06BF97;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.cancel:hover {
+    background-color: rgb(249, 250, 251);
+}
+
+.cancel:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.cancel:focus-visible {
+    box-shadow: none;
+}
+
+.save {
+    background-color: #06BF97;
+    margin: 1rem;
+    border: 1px solid #06BF97;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.save:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+}

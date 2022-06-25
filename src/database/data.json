@@ -1,0 +1,102 @@
+[
+    {
+        "id":"RID-001",
+        "post": "Software Engineer",
+        "candidateNum": 1,
+        "startDate": "20/09/2021",
+        "status": "In Progress",
+        "isActive": true,
+        "isArchive": false,
+        "isDraft": false
+    },
+    {
+        "id":"RID-002",
+        "post": "UI/UX Designer",
+        "candidateNum": 2,
+        "startDate": "21/09/2021",
+        "status": "In Progress",
+        "isActive": false,
+        "isArchive": false,
+        "isDraft": true
+    },
+    {
+        "id":"RID-003",
+        "post": "DevOps Engineer",
+        "candidateNum": 3,
+        "startDate": "22/09/2021",
+        "status": "In Progress",
+        "isActive": true,
+        "isArchive": false,
+        "isDraft": false
+    },
+    {
+        "id":"RID-004",
+        "post": "Java Developer",
+        "candidateNum": 4,
+        "startDate": "23/09/2021",
+        "status": "In Progress",
+        "isActive": false,
+        "isArchive": false,
+        "isDraft": true
+    },
+    {
+        "id":"RID-005",
+        "post": "React Developer",
+        "candidateNum": 5,
+        "startDate": "24/09/2021",
+        "status": "In Progress",
+        "isActive": true,
+        "isArchive": false,
+        "isDraft": false
+    },
+    {
+        "id":"RID-006",
+        "post": "iOS Developer",
+        "candidateNum": 6,
+        "startDate": "25/09/2021",
+        "status": "In Progress",
+        "isActive": false,
+        "isArchive": false,
+        "isDraft": true
+    },
+    {
+        "id":"RID-007",
+        "post": "React Native Developer",
+        "candidateNum": 7,
+        "startDate": "26/09/2021",
+        "status": "In Progress",
+        "isActive": true,
+        "isArchive": false,
+        "isDraft": false
+    },
+    {
+        "id":"RID-008",
+        "post": "Android Developer",
+        "candidateNum": 8,
+        "startDate": "25/09/2021",
+        "status": "In Progress",
+        "isActive": false,
+        "isArchive": true,
+        "isDraft": false
+    },
+    {
+        "id":"RID-009",
+        "post": "MongoDB Developer",
+        "candidateNum": 9,
+        "startDate": "26/09/2021",
+        "status": "In Progress",
+        "isActive": false,
+        "isArchive": true,
+        "isDraft": false
+    },
+    {
+        "id":"RID-0010",
+        "post": "MongoDB Developer",
+        "candidateNum": 10,
+        "startDate": "26/09/2021",
+        "status": "In Progress",
+        "isActive": true,
+        "isArchive": false,
+        "isDraft": false
+    }
+]

@@ -1,0 +1,66 @@
+.sidebar {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 12rem;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+}
+
+.menu li span {
+    color: #FFFFFF;
+    margin: 0.2rem;
+    font-style: bold;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    border: 0.1rem solid #06BF97;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 4rem;
+}
+
+.bar {
+    height: 0.1rem;
+    background-color: white;
+}
+
+.footer div img {
+    width: 12rem;
+}
+
+.footer p {
+    color: #9A9A9A;
+    width: 19rem;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+}

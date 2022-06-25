@@ -1,0 +1,51 @@
+.table {
+    width: 100%;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-collapse: collapse;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.3s;
+}
+
+
+.table thead {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.table td,
+th {
+    padding: 1rem;
+    font-size: 1.4rem;
+    border-radius: 0.2rem;
+}
+
+tr:nth-child(even) {
+    background-color: #F4F8FB;
+}
+
+.status {
+    color: #06BF97;
+}
+
+.button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
